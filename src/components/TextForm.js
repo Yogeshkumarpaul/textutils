@@ -17,7 +17,7 @@ export default function TextForm(props) {
   };
   const handleCopy = () => {
     navigator.clipboard.writeText(text);
-    props.showalert("Copied tp clipboard successfully.", "success");
+    props.showalert("Copied to clipboard successfully.", "success");
   };
   const handleExtraSpace = () => {
     let newtext = text.split(/[ ]+/);
